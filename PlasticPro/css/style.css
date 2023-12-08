@@ -1,0 +1,93 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,800;0,900;1,500;1,600;1,700;1,900&display=swap');
+</style>
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: font-family: 'Poppins', sans-serif;;
+}
+
+.navbar{
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+
+
+nav{
+	flex: 1;
+	text-align: right;
+}
+
+nav ul{
+	display: inline-block;
+	list-style-type: none;
+}
+
+nav ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #555;
+}
+
+.container{
+	max-width: 1200px;
+	margin: 1px auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-section{
+	margin-top: -20px;
+	background: radial-gradient(#fff, #eaf2fb);
+}
+
+.col-2 h1{
+	font-size: 50px;
+	line-height: 60px;
+	margin: 25px 0;
+	color: brown;
+}
+
+.col-md-3:hover{
+	transform: translateY(10px);
+}
+
+h2{
+	color: burlywood;
+	text-align: center;
+}
+
+h5{
+	color: blue;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+p{
+	color: red;
+	font-family: sans-serif;
+}
+
+h6{
+	color: green;
+	font-family: sans-serif;
+}
+
+
